@@ -1,9 +1,11 @@
 .App {
   text-align: center;
 }
-
+img {
+  border-radius: 50%;
+}
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 50s ease-in-out;
   height: 40vmin;
 }
 
@@ -29,4 +31,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container {
+  display: flex;
 }
